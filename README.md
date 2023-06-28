@@ -10,6 +10,7 @@ The game consists of two players competing with white and black chess pieces, ea
 - Chat mode
 - In-game chat
 - Alert bar to notify when the king is in check
+- Power-up that can reduce the cooldown to two seconds instead of three seconds (marked by a brown square)
 
 ---
 
@@ -19,4 +20,13 @@ This version was the first building block, containing the core logic of the game
 ---
 
 ## Phase 2
-This version represents a significant upgrade to the game, as it included real multiplayer functionality using the communication registers in the 8086 to send and receive moves from players during the game. A main menu was added, allowing users to enter their username and wait for another player to connect before choosing to play a Chezz match or chat with one another. Additionally, the in-game chat was made more realistic.
+This version represents a significant upgrade to the game, as it included real multiplayer functionality using the communication registers in the 8086 to send and receive moves from players during the game. A main menu was added, allowing users to enter their username and wait for another player to connect before choosing to play a Chezz match or chat with one another. Additionally, the in-game chat was made more realistic. An important feature added was the cooldown idinticator to show if the piece is in cool down or ready to be moved
+
+---
+
+## Run Instructions
+1. Install DOSBox and MASM
+2. masm Phase1.asm
+3. link Phase1.obj
+4. Phase1
+Do the same for Phase 2 to run it
