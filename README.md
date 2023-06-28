@@ -29,4 +29,5 @@ This version represents a significant upgrade to the game, as it included real m
 2. masm Phase1.asm
 3. link Phase1.obj
 4. Phase1
+
 Do the same for Phase 2 to run it
